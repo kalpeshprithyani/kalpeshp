@@ -1,0 +1,936 @@
+body{
+    background-color: #fef3c1;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.nav-top-minion{
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    background-color: transparent;
+    border: 0px;
+    top:0px;
+}
+
+.nav-font>li>a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #0cafbe !important;
+    width: 70px;
+    padding: 6px 10px;
+    margin: 18px 20px 0px 20px;
+    text-align: center;
+}
+
+.nav-font2>li>a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white !important;
+    width: 70px;
+    padding: 6px 10px;
+    margin: 18px 20px 0px 20px;
+    text-align: center;
+}
+
+.nav-font2>li>.active{
+    color: white !important;
+    background-color: black !important;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.nav-font2>li>.active:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid black 10px;
+    bottom: -9px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+}
+
+.nav-font2>li>a:hover{
+    color: white !important;
+    background-color: black !important;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.nav-font>li>a:hover{
+    color: #fef3c1 !important;
+    background-color: #27bcca !important;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.nav-font2>li>a:hover:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid black 10px;
+    bottom: -9px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+}
+
+.nav-font>li>a:hover:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid #27bcca 10px;
+    bottom: -9px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+}
+
+.navbar-brand>div{
+    font-family: 'Sue Ellen Francisco', cursive;
+    float: right;
+    padding-top: 26px;
+    padding-left: 10px;
+    color:black;
+    font-size: 24px;
+}
+
+.cd-background-wrapper{
+    position:fixed;
+    width: 100%;
+    height:100vh !important;
+}
+
+.cd-floating-background>img{
+    top: 50% !important;
+    left: 50% !important;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.parallax-1{
+    background-color: white;
+    margin-top: 800px;
+    z-index: 12;
+    position: relative;
+}
+
+.video-background{
+    background: url(../images/symphony.jpg) repeat !important;
+}
+
+.namaste{
+    background: url(../images/symphony.jpg) repeat;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 80px;
+    height:100vh;
+    text-align:center;
+    padding-top:40vh;
+}
+
+.namaste-text{
+    height:100vh;
+    color:black;
+    padding:120px;
+    line-height: 20px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: transparent;
+    color:black;
+}
+
+.plus{
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: bottom;
+    padding-right: 10px;
+}
+
+#firstLink,#secondLink,#thirdLink{
+    margin: 20px 0px 30px 50px;
+    font-size: 14px;
+}
+
+.video-coming-soon{
+    padding: 4px;
+    -webkit-box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.75);
+}
+
+.footer{
+    color:black;
+    background-color:white;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.vs-section{
+    -webkit-box-shadow: 0px -2px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -2px 13px 0px rgba(0,0,0,0.75);
+}
+
+.foot-nav{
+    padding:10px 0px;
+}
+
+.foot-nav>a{
+    color:grey;
+    text-decoration: underline;
+    padding: 0px 10px 0px 10px;
+}
+
+.foot-nav>a:hover{
+    color:black;
+}
+
+.foot-nav2>a:hover{
+    color:white;
+}
+
+.social-icons{
+    margin: 25px 10px 10px 13px;
+}
+
+.social-icons>div>a{
+    color: black;
+    border:1px solid black;
+}
+
+.social-icons-rest>div>a{
+    color: gray;
+    border:1px solid gray;
+}
+
+.social-icons-rest>div>a:hover{
+    background-color:white;
+    color:black;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.social-icons>div>a:hover{
+    background-color:black;
+    color:white;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);x
+}
+
+.foot-mail{
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+.foot-mail-rest{
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+.foot-mail>a{
+    color:grey;
+}
+
+.foot-mail-rest>a{
+    color:grey;
+}
+
+.foot-mail>a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.foot-mail-rest>a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.about-head{
+    color:black;
+    font-size:40px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.carousel-inner>.item>img{
+    display:initial;
+}
+
+.carousel-inner>.item{
+    line-height: 0;
+}
+
+
+
+
+
+
+
+.center {
+  width: 980px;
+  margin: 0 auto;
+}
+.tx {
+    font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+}
+.parallax_section {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: 100% auto;
+  position: relative;
+}
+.parallax_image_first {
+  background-image: url("../images/del/diagonal_background.jpg");
+}
+
+.parallax_image_second {
+  background-image: url("../images/work.jpg");
+}
+
+.parallax_image_third {
+  background-image: url("../images/process.jpg");
+}
+
+.parallax_image_fourth {
+  background-image: url("../images/contact.jpg");
+}
+
+.text{
+    cursor: default;
+}
+
+
+.work-images>div{
+    transition: 0.5s;
+    -webkit-transition:0.5s;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor:pointer;
+}
+
+.work-images>div::before, .work-images>div::after {
+  width: 100%;
+  height:100%;
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+
+
+.work-images>div::before {
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+  -webkit-transform-origin: 0 100%;
+}
+
+.work-images>div::after {
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  -webkit-transform-origin: 100% 0%;
+}
+/*
+.work-images>div {
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+}
+
+.work-images>div:hover {
+   -webkit-filter: brightness(70%);
+   filter: brightness(70%);
+}*/
+
+.work-images>div>span:after {
+    width: 100%; height:100%;
+    top:0; left:0;
+    position: absolute;
+    content: "";
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+      -webkit-transform: scale(0);
+      transition: 0.8s;
+}
+
+.work-images>div:hover span:after {
+  -webkit-transform: scale(1);
+    opacity: 1;
+}
+
+.work-images>div:hover::after, .work-images>div:hover::before {
+  -webkit-transform: scale(1);
+}
+
+.work-images>div>i{
+    z-index: 2;
+    color:white;
+    opacity:0;
+    position:absolute;
+    bottom:50%;
+    right:50%;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+
+.work-images>div:hover i{
+    right:40%;
+    opacity: 1;
+}
+
+.header__content.vertical-align--s-middle{
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+}
+
+input,textarea{
+    box-shadow:none !important;
+}
+
+input:focus{
+    border:1px solid black !important;
+    box-shadow: none !important;
+}
+
+textarea:focus{
+    border:1px solid black !important;
+    box-shadow: none !important;
+}
+
+.submit{
+    margin-top:20px;
+    border:2px solid black !important;
+    color:black;
+}
+
+.submit:hover{
+    background-color:black;
+    color:white;
+}
+
+.internal-link{
+    color:black;
+    text-decoration: underline;
+}
+
+.internal-link:hover{
+    color:#0cafbe;
+}
+
+.nav-stacked>li>a{
+    color:black;
+}
+
+.nav-stacked>li>a:hover{
+    color:#0cafbe;
+}
+
+.nav-pad{
+    padding-left:190px;
+}
+
+#icon-bar1{
+    width:18px;
+    transition: 0.5s;
+    transform-origin:top left;
+}
+
+#icon-bar3{
+    width:18px;
+    border-bottom:3px solid black;
+    transition: 0.5s;
+    transform-origin:top left;
+}
+
+.spinEffect1{
+    left:3px;
+    transform:rotate(20deg);
+}
+
+.spinEffect2{
+    left:3px;
+    transform:rotate(-20deg);
+}
+
+.navbar-collapse.collapse.black-border{
+    border-bottom:1px solid black;
+}
+
+.navbar-collapse.collapse.white-border{
+    border-bottom:1px solid white;
+}
+
+.hex{
+    position: relative;
+    left: -50%;
+    top:100px;
+}
+    
+.short-video{
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.footer-end{
+    text-align:center;
+    color: gray;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 0px 0px 10px 0px;
+    margin-top: -10px;
+}
+
+.about-head-head{
+    color:black;
+    text-align:center;
+    font-size:50px;
+    margin-top:100px;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.about-text{
+    text-align:center;
+    color:black;
+    margin-top:30px;
+    margin-bottom:70px;
+    line-height:20px;
+}
+
+.about-text-div{
+    margin-bottom:70px;
+}
+
+.motivation-text{
+    background-color:#f6f6f6;padding-top:80px;padding-bottom:80px;
+}
+
+.kick-ass-text{
+    color:black;font-family: 'Oswald', sans-serif;text-align:center;font-size: 30px;font-weight: bold;margin-top: 120px;
+}
+
+.promise-container{
+    padding-top:80px;padding-bottom:80px;
+}
+
+.promise-text{
+    color:black;font-family: 'Sue Ellen Francisco', cursive;font-size:25px;
+}
+
+.promise-head{
+    color:black;font-family: 'Oswald', sans-serif;text-align:center;font-size: 30px;font-weight: bold;margin-top: 100px;
+}
+
+.beliefs-container{
+    background-color:#f6f6f6;padding-top:80px;
+}
+
+.about-dot{
+    text-align:center;color:black;font-weight:bold;font-size:50px;margin-bottom:30px;
+}
+
+.minion-text{
+    text-align:center;color:black;margin-top:100px;margin-bottom:50px;line-height:20px;
+}
+
+.minions>div:nth-child(1){
+    text-align:left;bottom:-5px
+}
+
+.minions>div:nth-child(2){
+    text-align:center;bottom: -84px;
+}
+
+.minions>div:nth-child(3){
+    text-align:right;    bottom: -23px;
+}
+
+.minions>div>img{
+    display:initial;
+}
+
+.bow-tie-work{
+    margin-bottom:-13px;
+}
+
+.process-text{
+    text-align: center;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+.error-1{
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success-1{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-title{
+    color:black;
+    font-size:20px;
+}
+
+.modal-body{
+    color:#3c3c3c;
+    padding: 25px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) { 
+    .namaste-text{
+        padding: 70px 80px 0px 80px;
+        font-size: 14px;
+        line-height:20px;
+    }
+    
+    .namaste-text>span{
+        line-height:17px !important;
+    }
+    
+    .namaste-text>span>span{
+        font-size:35px !important;
+    }
+    
+    #email-home{
+        font-size:14px !important;
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    .cd-floating-background>img{
+        width:1400px
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .navbar-brand{
+        padding: 13px 0px 0px 20px !important;
+    }
+    .cd-floating-background>img{
+        width:1200px
+    }
+    
+    .minions>div>img{
+        width:inherit;
+    }
+}
+
+.thank-you{
+    margin-top:40vh;
+}
+
+.t404{
+    margin-top:25vh;
+}
+
+.button-404>a{
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px;
+    text-decoration:none;
+}
+
+.button-404>a:hover{
+    background-color:black;
+    color:white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) { 
+    .thank-you,.t404{
+        margin-top:5vh;
+    }
+    
+    .navbar-brand{
+        padding: 5px 0px 0px 5px !important;
+    }
+    
+    .navbar-brand>img{
+        width:50px !Important;
+    }
+    
+    .navbar-brand>div{
+        padding-top:15px;
+        font-size:20px
+    }
+    
+    .cd-floating-background>img{
+        width:1200px
+    }
+    
+    .nav-pad{
+        padding-left:0px;
+    }
+    
+    .nav.navbar-nav.navbar-right.nav-font{
+        background-color: #eaf7fd;
+        padding-bottom: 15px;
+        border: 1px solid #c2d7e0;
+    }
+    
+    .navbar-collapse.collapse.in{
+        border:0px !important;
+        border-top: 0px solid transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-color:transparent!important;
+    }
+    
+    .nav-font>li>a{
+        width:initial;
+    }
+    
+    .hex{
+        top:20px;
+    }
+    
+    .namaste-text{
+        padding:30px;
+        font-size: 13px;
+        line-height:16px;
+    }
+    
+    .namaste-text>span{
+        line-height:17px !important;
+    }
+    
+    .namaste-text>span>span{
+        font-size:35px !important;
+    }
+    
+    #email-home{
+        font-size:13px !important;
+    }
+    
+    .short-video{
+        font-size: 19px;
+    }
+    
+    .bow-tie{
+        padding:20px;
+    }
+    
+    .footer-end{
+        padding:0px;
+        padding-top: 10px;
+    }
+    
+    .foot-nav{
+        padding:1px 0px;
+    }
+    
+    .foot-mail{
+        float: none;
+        margin-right:0px;
+        margin-top: -7px;
+    }
+    
+    .foot-mail-rest{
+        float: none;
+        margin-bottom: 5px;
+        margin-right:0px;
+        margin-top: -9px;
+    }
+    
+    .social-icons>div,.social-icons-rest>div{
+        text-align:center;
+    }
+    
+    .social-icons>div:nth-child(2),.social-icons-rest>div:nth-child(2){
+        margin-top: 21px;
+    }
+    
+    .social-icons,.social-icons-rest{
+        margin:15px 10px 5px 13px;
+    }
+    
+    .social-icons>div>a:nth-child(1),.social-icons-rest>div>a:nth-child(1) {
+        padding: 3px 9px 3px 9px !important;
+    }
+    
+    .social-icons>div>a:nth-child(2),.social-icons-rest>div>a:nth-child(2) {
+        padding: 3px 7px 3px 7px !important;
+    }
+    
+    .social-icons>div>a:nth-child(3),.social-icons-rest>div>a:nth-child(3) {
+        padding: 3px 7px 3px 7px !important;
+    }
+    
+    .social-icons>div>a:nth-child(4),.social-icons-rest>div>a:nth-child(4) {
+        padding: 3px 5px 3px 5px !important;
+    }
+    
+    .social-icons>div>a:nth-child(5),.social-icons-rest>div>a:nth-child(5) {
+        padding: 3px 7px 3px 7px !important;
+    }
+    
+    .parallax_section {
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: 100% auto;
+      position: relative;
+        background-position: center;
+    }
+    
+    .parallax_section>div:first-of-type{
+        padding-top:40vh !important;
+    }
+    
+    .nav.navbar-nav.navbar-right.nav-font2{
+        background-color: #b9b9b9;
+        padding-bottom: 15px;
+        border: 1px solid #848484;
+    }
+    
+    .nav-font2>li>a{
+        width:initial;
+    }
+    
+    .about-head-head{
+        font-size: 40px;
+        margin-top: 70px;
+        line-height: 70px;
+    }
+    
+    .about-text{
+        font-size:14px;
+        line-height:16px;
+        padding:0px 10px;
+    }
+    
+    .process-text{
+        font-size:14px;
+        line-height:16px;
+        padding:0px 10px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    
+    .about-text-div{
+        margin-bottom: 30px;
+    }
+    
+    .motivation-text{
+        padding-top:40px;
+    }
+    
+    .kick-ass-text{
+        margin-top:50px;
+        margin-bottom:40px;
+    }
+    
+    .promise-container{
+        padding-top:50px;
+    }
+    
+    .center-align{
+        text-align:center;    
+    }
+    
+    .promise-text{
+        margin-top:30px;
+    }
+    
+    .promise-head{
+        margin-top: 40px;
+    }
+    
+    .beliefs-container{
+        padding-top:40px;
+    }
+    
+    .belief-img>img{
+        height: 110px !important;
+    }
+    
+    .belief-text{
+        text-align:center !important;
+        margin-top:15px;
+    }
+    
+    .about-dot{
+        margin-top: -20px;
+    }
+    
+    .minion-text{
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+    
+    .minions>div:nth-child(1){
+        bottom:-5px
+    }
+
+    .minions>div:nth-child(2){
+        bottom:-60px
+    }
+
+    .minions>div:nth-child(3){
+        bottom:-17px;
+    }
+    
+    .bow-tie-work{
+        margin-bottom: -28px;
+    }
+    
+    .form-margin>form>.form-group{
+        margin-left:0px;
+        margin-right:0px;
+    }
+    
+    .form-margin{
+        padding: 50px 0px 20px 0px !important;
+    }
+    
+    .col-sm-2.control-label.text{
+        margin-bottom:5px;
+    }
+    
+    .form-name-margin{
+        margin-bottom: 20px;
+    }
+}

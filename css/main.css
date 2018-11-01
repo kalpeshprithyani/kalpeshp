@@ -1,0 +1,69 @@
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html { font-size: 62.5%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #267481;
+}
+
+.vs-section h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  height: 4rem;
+  margin: auto;
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.vs-vertical-nav {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  right: 3%;
+  bottom: auto;
+  display: block;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vs-vertical-nav a {
+  display: block;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  white-space: nowrap;
+  text-indent: 100%;
+  background: url('../images/cd-icon-arrow.svg') no-repeat center center;
+}
+
+.vs-vertical-nav a.vs-prev {
+  margin-bottom: 10px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
